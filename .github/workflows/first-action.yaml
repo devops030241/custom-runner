@@ -6,6 +6,6 @@ jobs:
   init:
     runs-on: self-hosted
     steps:
-      - run: echo 'This is my first run'
+      - run: echo 'This is my first run but not working'
       - run: echo $HOSTNAME
       
